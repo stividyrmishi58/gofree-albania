@@ -119,7 +119,7 @@ const packages: TourPackage[] = [
       { name: 'Private Chef Service', price: 200, priceType: 'daily' },
       { name: 'Drone Pilot / Photographer', price: 150, priceType: 'daily' }
     ],
-    image: 'file:///C:/Users/stivi/OneDrive/Desktop/2025-honda-x-adv-action-front.avif',
+    image: 'https://www.google.com/search?sca_esv=c365169ac098cde4&rlz=1C1GCEA_enAL1203AL1203&sxsrf=ANbL-n6IOSdxU8rol1Wk3-gL4MeeniENsw:1775015200833&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-5-bUj3iBl-UxHsANYwOkWWQqZAJJdwuRaSoLHfELMHARurXwtwWmcdG4V-LDFDd8ecoEtHpZSRelVfCRq2UKwcWKG3jZWtDKY1abjUi6atsGFRNpwlmGKAQF9AXbF8wg8fYd5JIFkWAi8Mz75HFguCKRmBxQ&q=xadv+2025+grey&sa=X&ved=2ahUKEwj72ZD03suTAxXSvokEHTH4GpgQtKgLegQIExAB&biw=1920&bih=945&dpr=1#sv=CAMSVhoyKhBlLXcwR1l2OWU5bGJRWTlNMg53MEdZdjllOWxiUVk5TToORDZ5ZTNZOHFuRGlEWU0gBCocCgZtb3NhaWMSEGUtdzBHWXY5ZTlsYlFZOU0YADABGAcgqNGA7QJKCBABGAEgASgB',
     videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   }
 ];
