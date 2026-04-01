@@ -477,7 +477,7 @@ export default function App() {
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&q=80&w=1920" 
+            src="https://wallpaperaccess.com/full/4486.jpg" 
             alt="KTM Adventure 2025" 
             className="w-full h-full object-cover opacity-40 scale-105"
             referrerPolicy="no-referrer"
