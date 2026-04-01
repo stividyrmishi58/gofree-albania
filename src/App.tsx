@@ -934,7 +934,7 @@ export default function App() {
               <li className="flex items-center gap-3"><Mail size={16} /> info@gofreealbania.com</li>
               <li className="flex items-center gap-3">
                 <a 
-                  href="https://wa.me/355690000000" 
+                  href="https://wa.me/35564433227" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#25D366] transition-colors"
@@ -1388,7 +1388,7 @@ export default function App() {
                               <div className="flex items-center justify-between pt-2 border-t border-white/5">
                                 <span className="text-[8px] text-white/20 uppercase tracking-widest">Need help with group dates?</span>
                                 <a 
-                                  href="https://wa.me/355690000000" 
+                                  href="https://wa.me/355684433227" 
                                   target="_blank" 
                                   rel="noopener noreferrer"
                                   className="flex items-center gap-2 text-accent text-[10px] font-bold uppercase tracking-widest hover:underline"
