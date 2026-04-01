@@ -85,7 +85,7 @@ const packages: TourPackage[] = [
       { name: 'Premium Insurance Upgrade', price: 20, priceType: 'daily' },
       { name: 'Riding Boots Rental', price: 15, priceType: 'daily' }
     ],
-    image: 'https://static0.topspeedimages.com/wordpress/wp-content/uploads/2023/03/486343_my23-ktm-790-adventure_eu_-global.jpg?q=50&fit=crop&w=825&dpr=1.5',
+    image: 'https://wallpapercave.com/wp/wp9261504.jpg',
     videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   {
