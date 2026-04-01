@@ -57,9 +57,9 @@ const packages: TourPackage[] = [
   {
     id: '1',
     name: 'Tirana & Surroundings Explorer',
-    duration: '8-10 Hours',
+    duration: '8-16 Hours',
     difficulty: 'Easy',
-    price: '€120',
+    price: '€220',
     description: 'Discover the top spots of Tirana and its neighboring cities. A perfect blend of urban culture and nearby natural escapes.',
     includes: ['Expert Guide', 'Fuel', 'Lunch', 'Safety Gear', 'GoPro Footage'],
     includedGear: ['Helmet', 'Basic Riding Jacket', 'Gloves'],
@@ -76,7 +76,7 @@ const packages: TourPackage[] = [
     name: 'Historical North & South Odyssey',
     duration: '1-2 Days',
     difficulty: 'Moderate',
-    price: '€350',
+    price: '€450',
     description: 'A deep dive into the most beautiful historical cities of Albania, from the rugged North to the sun-kissed South.',
     includes: ['Expert Guide', 'All Meals', 'Hotel Accommodation', 'Technical Support', 'Airport Transfers'],
     includedGear: ['Off-road Helmet', 'Armor Jacket', 'Enduro Gloves', 'Knee Guards'],
@@ -93,7 +93,7 @@ const packages: TourPackage[] = [
     name: 'Albania & Cross-Border Adventure',
     duration: '2-3 Days',
     difficulty: 'Challenging',
-    price: '€650',
+    price: '€850',
     description: 'The ultimate freedom. Explore the hidden gems inside Albania or cross the borders for a multi-country Balkan experience.',
     includes: ['Border Permits', 'Full Board', 'Spare Bike Access', 'Professional Photography', 'Technical Support'],
     includedGear: ['Premium Touring Helmet', 'Gore-Tex Suit', 'Winter/Summer Gloves', 'Boots'],
@@ -110,7 +110,7 @@ const packages: TourPackage[] = [
     name: 'VIP Custom Adventure',
     duration: 'Custom',
     difficulty: 'Tailored',
-    price: 'Custom',
+    price: '€...',
     description: 'The ultimate personalized experience. You choose every detail, from the bikes and spots to the premium services. Perfect for solo riders or groups with passengers.',
     includes: ['Personalized Itinerary', 'Private Guide', 'Premium Logistics', 'VIP Support', 'All-Inclusive Options'],
     includedGear: ['Full Premium Set', 'Custom Fitting', 'All Weather Gear'],
@@ -132,7 +132,7 @@ const rentalBikes: (RentalBike & { specs: string[] })[] = [
     pricePerDay: '€110',
     features: ['DCT Transmission', 'Smart Key', 'Adjustable Windscreen', 'Under-seat Storage'],
     specs: ['745cc Parallel-Twin', '58 HP', '236kg Weight', '820mm Seat Height'],
-    image: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&q=80&w=800'
+    image: 'https://motornieuws.be/wp-content/uploads/2024/09/486162_25YM_Honda_X-ADV.jpg'
   },
   {
     id: 'b2',
@@ -141,7 +141,7 @@ const rentalBikes: (RentalBike & { specs: string[] })[] = [
     pricePerDay: '€130',
     features: ['Quickshifter+', 'Rally Mode', 'WP Suspension', 'Cornering ABS'],
     specs: ['799cc LC8c Engine', '95 HP', '189kg Dry Weight', '850mm Seat Height'],
-    image: 'https://images.unsplash.com/photo-1594149929911-78975a43d4f5?auto=format&fit=crop&q=80&w=800'
+    image: 'https://wallpapercave.com/wp/wp9261536.jpg'
   },
   {
     id: 'b3',
@@ -162,7 +162,7 @@ const topSpots: Spot[] = [
     region: 'North',
     description: 'The heart of the Albanian Alps. Famous for the Blue Eye and the Lock-in Tower.',
     history: 'Inhabited for centuries by highlanders, Theth remained isolated until recently, preserving its unique "Kanun" traditions and stone architecture. The Lock-in Tower served as a refuge during blood feuds.',
-    image: 'https://images.unsplash.com/photo-1580137189272-c9379f8864fd?auto=format&fit=crop&q=80&w=800',
+    image: 'https://eia476h758b.exactdn.com/wp-content/uploads/2021/10/Theth07_AlbaniaVisit.com_.jpg',
     coords: { x: 45, y: 15 },
     basePrice: 45
   },
@@ -173,7 +173,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'A dramatic mountain pass reaching 1,027m, offering panoramic views of the Ionian Sea.',
     history: 'Julius Caesar himself crossed this pass in 48 BC during his pursuit of Pompey. Today, it marks the divide between the Adriatic and Ionian seas.',
-    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.squarespace-cdn.com/content/v1/57b9b98a29687f1ef5c622df/1497187214347-VQS90CW3BIU44LS8YRN5/Llogara+Pass+Albania',
     coords: { x: 35, y: 70 },
     basePrice: 35
   },
@@ -184,7 +184,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'UNESCO World Heritage site with unique Ottoman architecture and a massive castle.',
     history: 'Known as the "City of Stone," it was a major center during the Ottoman Empire. The castle, one of the largest in the Balkans, dates back to the 12th century.',
-    image: 'https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&q=80&w=800',
+    image: 'https://sandaltanman.com/wp-content/uploads/2021/08/wow-1-e1628079765518.jpg',
     coords: { x: 55, y: 85 },
     basePrice: 50
   },
@@ -195,7 +195,7 @@ const topSpots: Spot[] = [
     region: 'North',
     description: 'A turquoise reservoir surrounded by limestone peaks, perfect for a short adventure ride.',
     history: 'Constructed in the 1990s to provide water for Tirana, it has quickly become a favorite spot for climbers and adventure seekers due to its dramatic canyons.',
-    image: 'https://images.unsplash.com/photo-1471440671318-55bdbb772f93?auto=format&fit=crop&q=80&w=800',
+    image: 'https://eia476h758b.exactdn.com/wp-content/uploads/2023/07/Hiking-Lake-Bovila-Albania-scaled.jpeg?strip=all&w=2560',
     coords: { x: 50, y: 45 },
     basePrice: 25
   },
@@ -206,7 +206,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'Ancient Greek and later Roman city. A microcosm of Mediterranean history.',
     history: 'Founded by exiles from Troy, Butrint was a major port and religious center. It features a well-preserved theater, basilica, and Venetian fortress.',
-    image: 'https://images.unsplash.com/photo-1564333319159-27017ac4f58c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://tvklan.al/wp-content/uploads/2025/01/butrint-1024x683.jpg',
     coords: { x: 50, y: 95 },
     basePrice: 55
   },
@@ -217,7 +217,7 @@ const topSpots: Spot[] = [
     region: 'North',
     description: 'The center of Albanian resistance against the Ottoman Empire.',
     history: 'The stronghold of national hero Skanderbeg, who defended the castle against three massive Ottoman sieges in the 15th century.',
-    image: 'https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&q=80&w=800',
+    image: 'https://shqip.al/wp-content/uploads/2024/09/Kruja-castle-Albania.jpg',
     coords: { x: 45, y: 40 },
     basePrice: 30
   },
@@ -228,7 +228,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'The last wild river in Europe, offering pristine nature and challenging gravel tracks.',
     history: 'Declared a National Park in 2023, the Vjosa is one of the few remaining large river systems in Europe that flows freely from source to sea.',
-    image: 'https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&q=80&w=800',
+    image: 'https://elitetravel.al/wp-content/uploads/2023/10/Lumi-Vjosa-zyrtarisht-shpallet-Park-Kombetare-Insajderi.org_.jpg',
     coords: { x: 65, y: 80 },
     basePrice: 40
   },
@@ -239,7 +239,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'One of Europe\'s oldest and deepest lakes, a UNESCO World Heritage site.',
     history: 'Shared between Albania and North Macedonia, it is one of the world\'s oldest lakes, with a unique ecosystem of over 200 endemic species.',
-    image: 'https://images.unsplash.com/photo-1594149929911-78975a43d4f5?auto=format&fit=crop&q=80&w=800',
+    image: 'https://www.syri-vision.tv/wp-content/uploads/2024/02/88dc3d6b-376b-4f45-a592-5e5180c2ba2c-istock-639197016-scaled.jpg',
     coords: { x: 75, y: 55 },
     basePrice: 45
   },
@@ -250,7 +250,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'A UNESCO World Heritage site known for its white Ottoman houses and massive castle.',
     history: 'Continuously inhabited for over 2400 years, Berat is a living museum. Its castle is unique as people still live within its ancient walls today.',
-    image: 'https://images.unsplash.com/photo-1580137189272-c9379f8864fd?auto=format&fit=crop&q=80&w=800',
+    image: 'https://www.historyhit.com/app/uploads/2020/11/Berat_Shutterstock.jpg',
     coords: { x: 50, y: 65 },
     basePrice: 35
   },
@@ -261,7 +261,7 @@ const topSpots: Spot[] = [
     region: 'North',
     description: 'The "Gem of the Alps," offering some of the most dramatic mountain scenery in the Balkans.',
     history: 'Named after the Valbona River, this valley is the gateway to the high peaks of the Accursed Mountains. It remains one of the most pristine wilderness areas in Europe.',
-    image: 'https://images.unsplash.com/photo-1471440671318-55bdbb772f93?auto=format&fit=crop&q=80&w=800',
+    image: 'https://albaniannight.com/wp-content/uploads/2025/05/Theth-Valbone-Trail-2560x1440-1-1.jpg',
     coords: { x: 55, y: 10 },
     basePrice: 50
   },
@@ -272,7 +272,7 @@ const topSpots: Spot[] = [
     region: 'South',
     description: 'Crystal clear turquoise waters and small islands accessible by boat or swimming.',
     history: 'Part of the Butrint National Park, Ksamil was built in the 1960s. It has since become the most famous beach destination in Albania.',
-    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://saranda-explore.al/wp-content/uploads/2024/06/sarande-butrint-archaeological-park-and-ksamil-day-trip-1302011.webp',
     coords: { x: 38, y: 98 },
     basePrice: 60
   }
