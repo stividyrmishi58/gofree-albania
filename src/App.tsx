@@ -102,7 +102,7 @@ const packages: TourPackage[] = [
       { name: 'Satellite Phone Rental', price: 10, priceType: 'daily' },
       { name: 'Camping Gear Set', price: 50, priceType: 'flat' }
     ],
-    image: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://wallpapercave.com/wp/wp4183252.jpg',
     videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   {
