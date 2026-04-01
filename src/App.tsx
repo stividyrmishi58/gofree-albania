@@ -956,7 +956,7 @@ export default function App() {
 
       {/* Floating WhatsApp Button */}
       <a 
-        href="https://wa.me/355690000000" 
+        href="https://wa.me/355684433227" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 z-[100] group"
@@ -1506,7 +1506,7 @@ export default function App() {
                                 <input 
                                   type="tel" 
                                   required
-                                  placeholder="+355 69 000 0000"
+                                  placeholder="+355 68 44 33 227"
                                   value={bookingData.phone}
                                   onChange={(e) => setBookingData({...bookingData, phone: e.target.value})}
                                   className="w-full bg-white/5 border border-white/10 rounded-2xl pl-14 pr-6 py-4 text-sm focus:outline-none focus:border-accent transition-colors"
