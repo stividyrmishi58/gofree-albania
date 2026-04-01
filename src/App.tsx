@@ -119,7 +119,7 @@ const packages: TourPackage[] = [
       { name: 'Private Chef Service', price: 200, priceType: 'daily' },
       { name: 'Drone Pilot / Photographer', price: 150, priceType: 'daily' }
     ],
-    image: 'https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&q=80&w=1200',
+    image: 'file:///C:/Users/stivi/OneDrive/Desktop/2025-honda-x-adv-action-front.avif',
     videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   }
 ];
