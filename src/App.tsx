@@ -68,7 +68,7 @@ const packages: TourPackage[] = [
       { name: 'Premium Insurance', price: 15, priceType: 'flat' },
       { name: 'GoPro Hero 12 Rental', price: 25, priceType: 'flat' }
     ],
-    image: 'https://images.unsplash.com/photo-1580137189272-c9379f8864fd?auto=format&fit=crop&q=80&w=800',
+    image: 'https://www.padgettsmotorcycles.com/wp-content/uploads/mlo-assets/news/8401485x950x500_FFFFFF_L_0-950x500.jpg',
     videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   },
   {
