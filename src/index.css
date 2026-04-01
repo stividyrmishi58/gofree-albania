@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #4fd1c5; /* Chill Teal */
+  --color-accent-hover: #38b2ac;
+}
